@@ -1,0 +1,85 @@
+html {
+    height: 100%;
+}
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header.page-header {
+    width: 100%;
+    height: 90px;
+    overflow: hidden;
+    background: #231F20;
+    color: white;
+}
+.header-logo {
+    float: left;
+    width: auto;
+    height: 90px;
+}
+.logo-text {
+    float: left;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+.page-content {
+    width: 100%;
+    height: 100%;
+    background: #f3f3f3;
+    flex: 1;
+}
+footer.page-footer {
+    width: 100%;
+    height: 50px;
+    background: #231F20;
+    margin-top: auto;
+}
+input[type="text"], input[type="password"], textarea {
+    height: 33px;
+    width: 50%;
+    border: 1px solid #CCC;
+    outline: none;
+    margin: 0;
+    padding: 5px 15px;
+    box-shadow: inset 2px 2px 2px 0px rgba(42, 42, 42, .12);
+    -moz-box-shadow: inset 2px 2px 2px 0px rgba(42, 42, 42, .12);
+    -webkit-box-shadow: inset 2px 2px 2px 0px rgba(42, 42, 42, .12);
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+    border-color: #F9A51B;
+}
+button {
+    padding: 9px 15px;
+    background-color: #F9A51B;
+    color: white;
+    font-weight: bold;
+    min-width: 100px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 95%;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.2),inset 0 -1px 0 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.2),inset 0 -1px 0 0 rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.2),inset 0 -1px 0 0 rgba(0, 0, 0, 0.3);
+}
+button:hover {
+    background-color: #d78e1a;
+}
+.clear {
+    clear: both;
+}
